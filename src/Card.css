@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.team{
+    background-color: rgb(127, 238, 201);
+   }
+.team h1{
+    font-weight: bold;
+    color: rgb(194, 103, 103);
+}
+.team h5{
+    color: blueviolet;
+}
+.team img{
+    margin-top: -50px;
+}
+.team i{
+    font-size: 26px;
+    color: #ff9933;
+}
+.team p{
+    font-weight: 500px;
+}
+.team .card{
+    border-radius: 0;
+    box-shadow:  5px  5px 10px #d31d1d;
+    transition: all 0.3s ease-in;
+    -webkit-transform: all 0.3 ease-in;
+    -moz-transform: all 0.3 ease-in;
+}
+
+.team .card:hover{
+    background: #a24aff;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #ffff00;
+}
+ .team .card:hover h5{
+     color: #ffff00;
+ }
